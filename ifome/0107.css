@@ -1,0 +1,50 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    text-align: center;
+}
+
+.container{
+    padding: 0% 30%;
+}
+
+legend{
+    text-align: left;
+}
+
+input[type="email"], input[type="text"]{
+    padding: 1%;
+    margin-bottom: 10px;
+    width: 83,3%;
+}
+
+input{
+    transition: all 0.5s ease-in-out;
+}
+
+input:hover{
+    background:rebeccapurple;
+    color: white;
+}
+
+input:not([type="email"]):not([disable]):hover{
+    background-color: #ee0e29;
+    color: #fff;
+}
+
+
+
+textarea{
+    margin-bottom: 10px;
+    width: 85%;
+}
+
+fieldset:nth-child(1) label{
+    display: block;
+   }
+
+fieldset:last-of-type{
+    margin-bottom: 15px;
+}

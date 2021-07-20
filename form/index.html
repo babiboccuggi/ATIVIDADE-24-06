@@ -1,0 +1,36 @@
+<!-- Versão 5 do HTML -->
+<!DOCTYPE html>
+<!-- Tag principal / Idioma da página -->
+<html lang="pt-br">
+<head>
+    <title>Criando um formulário simples</title>
+    <!-- Link do o arquivo CSS (Na pasta STYLE) -->
+    <link rel="stylesheet" href="./root.css">
+    <meta charset="utg-8">
+</head>
+<body>
+    <!-- Tag de início do formulário -->
+    <div id = "formBox">
+        <form>
+            <!-- Campo de login -->
+            <label id = formHeader>Bem Vindo!</label>
+            <br>
+            <!-- <label for="login">Login</label> -->
+            <input type="text" class="formField" name="login" placeholder="Usuário">
+            <br><br>
+            <!-- Campo de senha -->
+            <!-- <label for="password">Senha</label> -->
+            <input type="password" class="formField" name="password" placeholder="Senha">
+            <div id="radioBox">
+                <input type="checkbox" name="remindMe">
+                <label for="remindMe">Lembrar-me</label>
+            </div>
+            <div id="buttomBox">
+            <!-- Botão de envio -->
+                <input type="submit" value="Enviar" id="buttom">
+            </div>
+            <label id="signUp">Cadastre-se</label>
+        </form>
+    </div>
+</body>
+</html>
